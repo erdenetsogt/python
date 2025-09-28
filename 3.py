@@ -34,52 +34,72 @@ class APIClient:
         except requests.exceptions.RequestException as e:
             logging.error(f"POST failed: {e}")
             return None
-def randTemp():
-    a = random.uniform(1, 80)
-    return round(a,2)
-def randPressure():
-    a = random.uniform(1, 10)
-    return round(a,2)
-def generate_sample_data():
-    """Generate sample data for posting"""
-    return json.dumps({
-  "sensorObjects": [
-    {
-      "sensorObjectId": 1,
-      "value": randTemp()
-    },
-    {
-      "sensorObjectId": 2,
-      "value": randTemp()
-    },
-    {
-      "sensorObjectId": 3,
-      "value": randPressure()
-    },
-    {
-      "sensorObjectId": 4,
-      "value": randPressure()
-    },
-    {
-      "sensorObjectId": 5,
-      "value": randTemp()
-    },
-    {
-      "sensorObjectId": 6,
-      "value": randTemp()
-    },
-    {
-      "sensorObjectId": 7,
-      "value": randPressure()
-    },
-    {
-      "sensorObjectId": 8,
-      "value": randPressure()
-    }
-  ]
-})
-    
 
+def setSensorValue(val, id):
+  match id:
+    case 1: #
+      return setValue(80,96,val)
+    case 2: #
+      return setValue(70,86,val)
+    case 3: #
+      return setValue(75,85,val)
+    case 4: #      
+      return setValue(50,68,val)
+    case 5: #
+      return setValue(6.5,9.6,val)
+    case 6: #
+      return setValue(5.2,7.6,val)
+    case 7: #
+      return setValue(3.2,4.5,val)
+    case _: #
+      return setValue(2.8,4.0,val)
+  
+  
+def setValue(min,max,val1):
+  val = float(val1)
+  print("val1: ",val)
+  a = random.uniform(0,9)
+  b = round(a)
+  print("ytga: ",b)
+  if(b<3):
+    val = val + 0.1
+    if(val>max):
+      val = val - 0.1
+    #return val
+  if(b>7):
+    val = val - 0.1
+    if(val<min):
+      val = val + 0.1
+    #return val
+  val = round(val,1)
+  print("val: ",val)
+  return val
+  
+ 
+
+def generate_sample_data(id):
+  url = "http://mysql-server-tailscale.tailb51a53.ts.net:5000/v/m/current/"+str(id)
+
+
+  headers = {
+    'Content-Type': 'application/json',
+    
+  }
+
+  response = requests.request("GET", url, headers=headers)
+  json_data = json.loads(response.text)
+  data1 = []
+  data = {}
+  for item in json_data.get("sensorObject"):
+      data['sensorObjectId'] = item.get("id")
+      data['value'] = setSensorValue(item.get("sensorObjectValue").get("value"),item.get("id"))    
+      data1.insert(len(data1),data.copy())
+      #print(item.get("id"), item.get("sensorObjectValue").get("value"))
+  data2={}
+  data2['sensorObjects'] = data1
+  print(json.dumps(data2))
+  return json.dumps(data2)
+count=[1,2,3,4,5]
 def main():
     # Configuration
     API_BASE_URL = "http://mysql-server-tailscale.tailb51a53.ts.net:5000"  # Replace with your API
@@ -103,17 +123,22 @@ def main():
     try:
         while True:
             # Generate or prepare your data
-            data = generate_sample_data()
+            for i in count:
+              
+              
+              logging.info(f"Preparing data for sensor ID {i} (Request #{request_count})")
+              # Generate sample data
+              data = generate_sample_data(i)
             
-            # Post data to API
-            result = client.post_data(ENDPOINT, data)
+              # Post data to API
+              result = client.post_data(ENDPOINT, data)
             
-            if result:
+              if result:
                 logging.info(f"Response: {result}")           
-            
+              time.sleep(2)
             
             # Wait before next request
-            logging.info(f"Waiting {LOOP_INTERVAL} seconds before next request...")
+              logging.info(f"Waiting {LOOP_INTERVAL} seconds before next request...")
             time.sleep(LOOP_INTERVAL)
             
     except KeyboardInterrupt:
