@@ -104,7 +104,7 @@ def main():
     # Configuration
     API_BASE_URL = "http://mysql-server-tailscale.tailb51a53.ts.net:5000"  # Replace with your API
     ENDPOINT = "/v/value"
-    LOOP_INTERVAL = 60  # seconds between requests
+    LOOP_INTERVAL = 600  # seconds between requests
     MAX_REQUESTS = 10  # Set to None for infinite loop
     
     # Optional: Add authentication headers
