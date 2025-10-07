@@ -147,29 +147,29 @@ def main():
                 next_run_time = schedule_start.replace(minute=next_run_minute, second=0, microsecond=0)
             
             # Calculate end time (1 hour from when schedule starts)
-            end_time = schedule_start + timedelta(hours=1)
+            #end_time = schedule_start + timedelta(hours=1)
             
             # Calculate how many runs were missed
-            missed_runs = current_slot
+            #missed_runs = current_slot
             
             print(f"Current time: {now.strftime('%H:%M:%S')}")
             print(f"Schedule: Every {interval_minutes:.0f} minutes (runs per hour: {runs_per_hour})")
-            print(f"Schedule runs from: {schedule_start.strftime('%H:%M')} to {end_time.strftime('%H:%M')}")
+            #print(f"Schedule runs from: {schedule_start.strftime('%H:%M')} to {end_time.strftime('%H:%M')}")
             
-            if missed_runs > 0:
-                print(f"Missed runs this hour: {missed_runs}")
+            
             
             print(f"Next scheduled run: {next_run_time.strftime('%H:%M:%S')}")
             
             # Wait until next scheduled time
-            wait_seconds = (next_run_time - now).total_seconds()
-            if wait_seconds > 0:
-                print(f"Waiting {wait_seconds:.1f} seconds...\n")
-                time.sleep(wait_seconds)
             
-            print(f"Starting scheduled runs until {end_time.strftime('%H:%M:%S')}...\n")
+            if next_run_time > now:
+              wait_seconds = (next_run_time - now).total_seconds()
+              print(f"Waiting {wait_seconds:.1f} seconds...\n")
+              time.sleep(wait_seconds)
             
-            run_count = 0
+            
+            
+            
             
             # Run the function at scheduled intervals
             
