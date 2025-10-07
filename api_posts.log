@@ -449,3 +449,505 @@
 2025-09-29 00:34:37,572 - INFO - Waiting 60 seconds before next request...
 2025-09-29 00:35:37,572 - INFO - Reached maximum request limit. Exiting loop.
 2025-09-29 00:35:37,573 - INFO - Total requests made: 11
+2025-09-29 19:22:42,956 - INFO - Starting API POST loop...
+2025-09-29 19:22:42,957 - INFO - Preparing data for sensor ID 1 (Request #0)
+2025-09-29 19:22:43,003 - ERROR - POST failed: 500 Server Error: Internal Server Error for url: http://mysql-server-tailscale.tailb51a53.ts.net:5000/v/value
+2025-09-29 19:22:45,009 - INFO - Waiting 600 seconds before next request...
+2025-09-29 19:22:45,009 - INFO - Preparing data for sensor ID 2 (Request #0)
+2025-09-29 19:22:45,049 - ERROR - POST failed: 500 Server Error: Internal Server Error for url: http://mysql-server-tailscale.tailb51a53.ts.net:5000/v/value
+2025-09-29 19:22:47,054 - INFO - Waiting 600 seconds before next request...
+2025-09-29 19:22:47,055 - INFO - Preparing data for sensor ID 3 (Request #0)
+2025-09-29 19:22:47,113 - ERROR - POST failed: 500 Server Error: Internal Server Error for url: http://mysql-server-tailscale.tailb51a53.ts.net:5000/v/value
+2025-09-29 19:22:49,119 - INFO - Waiting 600 seconds before next request...
+2025-09-29 19:22:49,119 - INFO - Preparing data for sensor ID 4 (Request #0)
+2025-09-29 19:22:49,164 - ERROR - POST failed: 500 Server Error: Internal Server Error for url: http://mysql-server-tailscale.tailb51a53.ts.net:5000/v/value
+2025-09-29 19:22:51,169 - INFO - Waiting 600 seconds before next request...
+2025-09-29 19:22:51,170 - INFO - Preparing data for sensor ID 5 (Request #0)
+2025-09-29 19:22:51,209 - ERROR - POST failed: 500 Server Error: Internal Server Error for url: http://mysql-server-tailscale.tailb51a53.ts.net:5000/v/value
+2025-09-29 19:22:53,215 - INFO - Waiting 600 seconds before next request...
+2025-09-29 19:32:53,214 - INFO - Preparing data for sensor ID 1 (Request #0)
+2025-09-29 19:32:53,375 - ERROR - POST failed: 500 Server Error: Internal Server Error for url: http://mysql-server-tailscale.tailb51a53.ts.net:5000/v/value
+2025-09-29 19:32:55,381 - INFO - Waiting 600 seconds before next request...
+2025-09-29 19:32:55,381 - INFO - Preparing data for sensor ID 2 (Request #0)
+2025-09-29 19:32:55,423 - ERROR - POST failed: 500 Server Error: Internal Server Error for url: http://mysql-server-tailscale.tailb51a53.ts.net:5000/v/value
+2025-09-29 19:32:57,428 - INFO - Waiting 600 seconds before next request...
+2025-09-29 19:32:57,429 - INFO - Preparing data for sensor ID 3 (Request #0)
+2025-09-29 19:32:57,477 - ERROR - POST failed: 500 Server Error: Internal Server Error for url: http://mysql-server-tailscale.tailb51a53.ts.net:5000/v/value
+2025-09-29 19:32:59,480 - INFO - Waiting 600 seconds before next request...
+2025-09-29 19:32:59,480 - INFO - Preparing data for sensor ID 4 (Request #0)
+2025-09-29 19:32:59,520 - ERROR - POST failed: 500 Server Error: Internal Server Error for url: http://mysql-server-tailscale.tailb51a53.ts.net:5000/v/value
+2025-09-29 19:33:01,525 - INFO - Waiting 600 seconds before next request...
+2025-09-29 19:33:01,525 - INFO - Preparing data for sensor ID 5 (Request #0)
+2025-09-29 19:33:01,568 - ERROR - POST failed: 500 Server Error: Internal Server Error for url: http://mysql-server-tailscale.tailb51a53.ts.net:5000/v/value
+2025-09-29 19:33:03,573 - INFO - Waiting 600 seconds before next request...
+2025-09-29 19:43:03,574 - INFO - Preparing data for sensor ID 1 (Request #0)
+2025-09-29 19:43:03,750 - ERROR - POST failed: 500 Server Error: Internal Server Error for url: http://mysql-server-tailscale.tailb51a53.ts.net:5000/v/value
+2025-09-29 19:43:05,755 - INFO - Waiting 600 seconds before next request...
+2025-09-29 19:43:05,756 - INFO - Preparing data for sensor ID 2 (Request #0)
+2025-09-29 19:43:23,373 - ERROR - POST failed: 500 Server Error: Internal Server Error for url: http://mysql-server-tailscale.tailb51a53.ts.net:5000/v/value
+2025-09-29 19:43:25,378 - INFO - Waiting 600 seconds before next request...
+2025-09-29 19:43:25,379 - INFO - Preparing data for sensor ID 3 (Request #0)
+2025-09-29 19:43:25,453 - ERROR - POST failed: 500 Server Error: Internal Server Error for url: http://mysql-server-tailscale.tailb51a53.ts.net:5000/v/value
+2025-09-29 19:43:27,459 - INFO - Waiting 600 seconds before next request...
+2025-09-29 19:43:27,459 - INFO - Preparing data for sensor ID 4 (Request #0)
+2025-09-29 19:43:27,500 - ERROR - POST failed: 500 Server Error: Internal Server Error for url: http://mysql-server-tailscale.tailb51a53.ts.net:5000/v/value
+2025-09-29 19:43:29,505 - INFO - Waiting 600 seconds before next request...
+2025-09-29 19:43:29,505 - INFO - Preparing data for sensor ID 5 (Request #0)
+2025-09-29 19:43:29,545 - ERROR - POST failed: 500 Server Error: Internal Server Error for url: http://mysql-server-tailscale.tailb51a53.ts.net:5000/v/value
+2025-09-29 19:43:31,550 - INFO - Waiting 600 seconds before next request...
+2025-09-29 19:57:10,441 - INFO - Preparing data for sensor ID 1 (Request #0)
+2025-09-29 19:57:15,163 - ERROR - POST failed: 500 Server Error: Internal Server Error for url: http://mysql-server-tailscale.tailb51a53.ts.net:5000/v/value
+2025-09-29 19:57:17,164 - INFO - Waiting 600 seconds before next request...
+2025-09-29 19:57:17,165 - INFO - Preparing data for sensor ID 2 (Request #0)
+2025-09-29 19:57:20,383 - ERROR - POST failed: 500 Server Error: Internal Server Error for url: http://mysql-server-tailscale.tailb51a53.ts.net:5000/v/value
+2025-09-29 19:57:22,390 - INFO - Waiting 600 seconds before next request...
+2025-09-29 19:57:22,390 - INFO - Preparing data for sensor ID 3 (Request #0)
+2025-09-29 19:57:26,950 - ERROR - POST failed: 500 Server Error: Internal Server Error for url: http://mysql-server-tailscale.tailb51a53.ts.net:5000/v/value
+2025-09-29 19:57:28,954 - INFO - Waiting 600 seconds before next request...
+2025-09-29 19:57:28,954 - INFO - Preparing data for sensor ID 4 (Request #0)
+2025-09-29 19:57:43,262 - ERROR - POST failed: HTTPConnectionPool(host='mysql-server-tailscale.tailb51a53.ts.net', port=5000): Max retries exceeded with url: /v/value (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x105d5d590>, 'Connection to mysql-server-tailscale.tailb51a53.ts.net timed out. (connect timeout=10)'))
+2025-09-29 19:57:45,268 - INFO - Waiting 600 seconds before next request...
+2025-09-29 19:57:45,268 - INFO - Preparing data for sensor ID 5 (Request #0)
+2025-09-29 19:57:45,324 - ERROR - POST failed: 500 Server Error: Internal Server Error for url: http://mysql-server-tailscale.tailb51a53.ts.net:5000/v/value
+2025-09-29 19:57:47,330 - INFO - Waiting 600 seconds before next request...
+2025-09-29 20:13:43,419 - INFO - Preparing data for sensor ID 1 (Request #0)
+2025-09-29 20:13:43,583 - INFO - POST successful: 201
+2025-09-29 20:13:43,584 - INFO - Response: {'ok': True}
+2025-09-29 20:13:45,592 - INFO - Waiting 600 seconds before next request...
+2025-09-29 20:13:45,593 - INFO - Preparing data for sensor ID 2 (Request #0)
+2025-09-29 20:13:45,730 - INFO - POST successful: 201
+2025-09-29 20:13:45,731 - INFO - Response: {'ok': True}
+2025-09-29 20:14:47,303 - INFO - Waiting 600 seconds before next request...
+2025-09-29 20:14:47,303 - INFO - Preparing data for sensor ID 3 (Request #0)
+2025-09-29 20:14:47,666 - INFO - POST successful: 201
+2025-09-29 20:14:47,666 - INFO - Response: {'ok': True}
+2025-09-29 20:14:49,676 - INFO - Waiting 600 seconds before next request...
+2025-09-29 20:14:49,677 - INFO - Preparing data for sensor ID 4 (Request #0)
+2025-09-29 20:14:50,003 - INFO - POST successful: 201
+2025-09-29 20:14:50,004 - INFO - Response: {'ok': True}
+2025-09-29 20:14:52,008 - INFO - Waiting 600 seconds before next request...
+2025-09-29 20:14:52,008 - INFO - Preparing data for sensor ID 5 (Request #0)
+2025-09-29 20:14:52,176 - INFO - POST successful: 201
+2025-09-29 20:14:52,177 - INFO - Response: {'ok': True}
+2025-09-29 20:14:54,188 - INFO - Waiting 600 seconds before next request...
+2025-09-29 21:12:15,050 - INFO - Preparing data for sensor ID 1 (Request #0)
+2025-09-29 21:12:25,098 - ERROR - POST failed: HTTPConnectionPool(host='mysql-server-tailscale.tailb51a53.ts.net', port=5000): Max retries exceeded with url: /v/value (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x105d5d370>, 'Connection to mysql-server-tailscale.tailb51a53.ts.net timed out. (connect timeout=10)'))
+2025-09-29 21:12:27,103 - INFO - Waiting 600 seconds before next request...
+2025-09-29 21:12:27,103 - INFO - Preparing data for sensor ID 2 (Request #0)
+2025-09-29 21:12:27,271 - INFO - POST successful: 201
+2025-09-29 21:12:27,271 - INFO - Response: {'ok': True}
+2025-09-29 21:12:29,272 - INFO - Waiting 600 seconds before next request...
+2025-09-29 21:12:29,272 - INFO - Preparing data for sensor ID 3 (Request #0)
+2025-09-29 21:12:29,412 - INFO - POST successful: 201
+2025-09-29 21:12:29,412 - INFO - Response: {'ok': True}
+2025-09-29 21:12:31,417 - INFO - Waiting 600 seconds before next request...
+2025-09-29 21:12:31,418 - INFO - Preparing data for sensor ID 4 (Request #0)
+2025-09-29 21:12:31,558 - INFO - POST successful: 201
+2025-09-29 21:12:31,559 - INFO - Response: {'ok': True}
+2025-09-29 21:12:33,564 - INFO - Waiting 600 seconds before next request...
+2025-09-29 21:12:33,565 - INFO - Preparing data for sensor ID 5 (Request #0)
+2025-09-29 21:12:33,706 - INFO - POST successful: 201
+2025-09-29 21:12:33,707 - INFO - Response: {'ok': True}
+2025-09-29 21:12:35,712 - INFO - Waiting 600 seconds before next request...
+2025-09-29 21:22:35,716 - INFO - Preparing data for sensor ID 1 (Request #0)
+2025-09-29 21:22:35,927 - INFO - POST successful: 201
+2025-09-29 21:22:35,928 - INFO - Response: {'ok': True}
+2025-09-29 21:22:37,933 - INFO - Waiting 600 seconds before next request...
+2025-09-29 21:22:37,933 - INFO - Preparing data for sensor ID 2 (Request #0)
+2025-09-29 21:22:37,964 - ERROR - POST failed: HTTPConnectionPool(host='mysql-server-tailscale.tailb51a53.ts.net', port=5000): Max retries exceeded with url: /v/value (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x105d5c380>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-09-29 21:22:39,966 - INFO - Waiting 600 seconds before next request...
+2025-09-29 21:22:39,967 - INFO - Preparing data for sensor ID 3 (Request #0)
+2025-09-29 21:22:40,148 - INFO - POST successful: 201
+2025-09-29 21:22:40,149 - INFO - Response: {'ok': True}
+2025-09-29 21:22:42,152 - INFO - Waiting 600 seconds before next request...
+2025-09-29 21:22:42,152 - INFO - Preparing data for sensor ID 4 (Request #0)
+2025-09-29 21:22:42,285 - INFO - POST successful: 201
+2025-09-29 21:22:42,287 - INFO - Response: {'ok': True}
+2025-09-29 21:22:44,290 - INFO - Waiting 600 seconds before next request...
+2025-09-29 21:22:44,290 - INFO - Preparing data for sensor ID 5 (Request #0)
+2025-09-29 21:22:44,426 - INFO - POST successful: 201
+2025-09-29 21:22:44,427 - INFO - Response: {'ok': True}
+2025-09-29 21:22:46,430 - INFO - Waiting 600 seconds before next request...
+2025-09-29 21:32:46,430 - INFO - Preparing data for sensor ID 1 (Request #0)
+2025-09-29 21:32:46,639 - INFO - POST successful: 201
+2025-09-29 21:32:46,640 - INFO - Response: {'ok': True}
+2025-09-29 21:32:48,640 - INFO - Waiting 600 seconds before next request...
+2025-09-29 21:32:48,641 - INFO - Preparing data for sensor ID 2 (Request #0)
+2025-09-29 21:32:48,779 - INFO - POST successful: 201
+2025-09-29 21:32:48,779 - INFO - Response: {'ok': True}
+2025-09-29 21:32:50,785 - INFO - Waiting 600 seconds before next request...
+2025-09-29 21:32:50,785 - INFO - Preparing data for sensor ID 3 (Request #0)
+2025-09-29 21:32:50,929 - INFO - POST successful: 201
+2025-09-29 21:32:50,929 - INFO - Response: {'ok': True}
+2025-09-29 21:32:52,934 - INFO - Waiting 600 seconds before next request...
+2025-09-29 21:32:52,934 - INFO - Preparing data for sensor ID 4 (Request #0)
+2025-09-29 21:32:53,069 - INFO - POST successful: 201
+2025-09-29 21:32:53,069 - INFO - Response: {'ok': True}
+2025-09-29 21:32:55,074 - INFO - Waiting 600 seconds before next request...
+2025-09-29 21:32:55,075 - INFO - Preparing data for sensor ID 5 (Request #0)
+2025-09-29 21:32:55,228 - INFO - POST successful: 201
+2025-09-29 21:32:55,229 - INFO - Response: {'ok': True}
+2025-09-29 21:32:57,230 - INFO - Waiting 600 seconds before next request...
+2025-09-29 21:42:57,233 - INFO - Preparing data for sensor ID 1 (Request #0)
+2025-09-29 21:42:57,432 - INFO - POST successful: 201
+2025-09-29 21:42:57,432 - INFO - Response: {'ok': True}
+2025-09-29 21:42:59,434 - INFO - Waiting 600 seconds before next request...
+2025-09-29 21:42:59,434 - INFO - Preparing data for sensor ID 2 (Request #0)
+2025-09-29 21:42:59,566 - INFO - POST successful: 201
+2025-09-29 21:42:59,567 - INFO - Response: {'ok': True}
+2025-09-29 21:43:01,569 - INFO - Waiting 600 seconds before next request...
+2025-09-29 21:43:01,569 - INFO - Preparing data for sensor ID 3 (Request #0)
+2025-09-29 21:43:01,716 - INFO - POST successful: 201
+2025-09-29 21:43:01,716 - INFO - Response: {'ok': True}
+2025-09-29 21:43:03,719 - INFO - Waiting 600 seconds before next request...
+2025-09-29 21:43:03,719 - INFO - Preparing data for sensor ID 4 (Request #0)
+2025-09-29 21:43:03,884 - INFO - POST successful: 201
+2025-09-29 21:43:03,884 - INFO - Response: {'ok': True}
+2025-09-29 21:43:05,885 - INFO - Waiting 600 seconds before next request...
+2025-09-29 21:43:05,885 - INFO - Preparing data for sensor ID 5 (Request #0)
+2025-09-29 21:43:06,025 - INFO - POST successful: 201
+2025-09-29 21:43:06,025 - INFO - Response: {'ok': True}
+2025-09-29 21:43:08,030 - INFO - Waiting 600 seconds before next request...
+2025-09-29 21:53:08,031 - INFO - Preparing data for sensor ID 1 (Request #0)
+2025-09-29 21:53:08,189 - INFO - POST successful: 201
+2025-09-29 21:53:08,190 - INFO - Response: {'ok': True}
+2025-09-29 21:53:10,195 - INFO - Waiting 600 seconds before next request...
+2025-09-29 21:53:10,195 - INFO - Preparing data for sensor ID 2 (Request #0)
+2025-09-29 21:53:10,339 - INFO - POST successful: 201
+2025-09-29 21:53:10,340 - INFO - Response: {'ok': True}
+2025-09-29 21:53:12,342 - INFO - Waiting 600 seconds before next request...
+2025-09-29 21:53:12,343 - INFO - Preparing data for sensor ID 3 (Request #0)
+2025-09-29 21:53:12,553 - INFO - POST successful: 201
+2025-09-29 21:53:12,553 - INFO - Response: {'ok': True}
+2025-09-29 21:53:14,559 - INFO - Waiting 600 seconds before next request...
+2025-09-29 21:53:14,559 - INFO - Preparing data for sensor ID 4 (Request #0)
+2025-09-29 21:53:14,704 - INFO - POST successful: 201
+2025-09-29 21:53:14,704 - INFO - Response: {'ok': True}
+2025-09-29 21:53:16,708 - INFO - Waiting 600 seconds before next request...
+2025-09-29 21:53:16,708 - INFO - Preparing data for sensor ID 5 (Request #0)
+2025-09-29 21:53:16,876 - INFO - POST successful: 201
+2025-09-29 21:53:16,876 - INFO - Response: {'ok': True}
+2025-09-29 21:53:18,880 - INFO - Waiting 600 seconds before next request...
+2025-09-29 22:12:06,747 - INFO - Preparing data for sensor ID 1 (Request #0)
+2025-09-29 22:30:11,365 - INFO - POST successful: 201
+2025-09-29 22:30:11,366 - INFO - Response: {'ok': True}
+2025-09-29 22:30:13,375 - INFO - Waiting 600 seconds before next request...
+2025-09-29 22:30:13,376 - INFO - Preparing data for sensor ID 2 (Request #0)
+2025-09-29 22:30:16,049 - INFO - POST successful: 201
+2025-09-29 22:30:16,050 - INFO - Response: {'ok': True}
+2025-09-29 22:30:18,053 - INFO - Waiting 600 seconds before next request...
+2025-09-29 22:30:18,053 - INFO - Preparing data for sensor ID 3 (Request #0)
+2025-09-29 22:30:18,337 - INFO - POST successful: 201
+2025-09-29 22:30:18,338 - INFO - Response: {'ok': True}
+2025-09-29 22:30:20,344 - INFO - Waiting 600 seconds before next request...
+2025-09-29 22:30:20,344 - INFO - Preparing data for sensor ID 4 (Request #0)
+2025-09-29 22:30:20,701 - INFO - POST successful: 201
+2025-09-29 22:30:20,702 - INFO - Response: {'ok': True}
+2025-09-29 22:39:06,168 - INFO - Waiting 600 seconds before next request...
+2025-09-29 22:39:06,168 - INFO - Preparing data for sensor ID 5 (Request #0)
+2025-09-29 23:42:24,997 - ERROR - Unexpected error: HTTPConnectionPool(host='mysql-server-tailscale.tailb51a53.ts.net', port=5000): Max retries exceeded with url: /v/m/current/5 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x105d5d260>, 'Connection to mysql-server-tailscale.tailb51a53.ts.net timed out. (connect timeout=None)'))
+2025-09-29 23:42:24,997 - INFO - Total requests made: 0
+2025-10-06 20:07:15,149 - INFO - Starting API POST loop...
+2025-10-06 20:07:28,370 - INFO - Loop interrupted by user. Exiting...
+2025-10-06 20:07:28,370 - INFO - Total requests made: 0
+2025-10-06 20:08:41,594 - INFO - Starting API POST loop...
+2025-10-06 20:09:00,005 - INFO - Preparing data for sensor ID 1 (Request #0)
+2025-10-06 20:09:00,343 - INFO - POST successful: 201
+2025-10-06 20:09:00,344 - INFO - Response: {'ok': True}
+2025-10-06 20:09:02,349 - INFO - Preparing data for sensor ID 2 (Request #0)
+2025-10-06 20:09:02,487 - INFO - POST successful: 201
+2025-10-06 20:09:02,488 - INFO - Response: {'ok': True}
+2025-10-06 20:09:04,492 - INFO - Preparing data for sensor ID 3 (Request #0)
+2025-10-06 20:09:04,630 - INFO - POST successful: 201
+2025-10-06 20:09:04,630 - INFO - Response: {'ok': True}
+2025-10-06 20:09:06,636 - INFO - Preparing data for sensor ID 4 (Request #0)
+2025-10-06 20:09:06,787 - INFO - POST successful: 201
+2025-10-06 20:09:06,788 - INFO - Response: {'ok': True}
+2025-10-06 20:09:08,788 - INFO - Preparing data for sensor ID 5 (Request #0)
+2025-10-06 20:09:08,934 - INFO - POST successful: 201
+2025-10-06 20:09:08,935 - INFO - Response: {'ok': True}
+2025-10-06 20:20:53,768 - INFO - Preparing data for sensor ID 1 (Request #0)
+2025-10-06 20:20:54,110 - INFO - POST successful: 201
+2025-10-06 20:20:54,111 - INFO - Response: {'ok': True}
+2025-10-06 20:20:56,115 - INFO - Preparing data for sensor ID 2 (Request #0)
+2025-10-06 20:20:56,261 - INFO - POST successful: 201
+2025-10-06 20:20:56,261 - INFO - Response: {'ok': True}
+2025-10-06 20:20:58,264 - INFO - Preparing data for sensor ID 3 (Request #0)
+2025-10-06 20:20:58,404 - INFO - POST successful: 201
+2025-10-06 20:20:58,405 - INFO - Response: {'ok': True}
+2025-10-06 20:21:00,410 - INFO - Preparing data for sensor ID 4 (Request #0)
+2025-10-06 20:21:00,556 - INFO - POST successful: 201
+2025-10-06 20:21:00,557 - INFO - Response: {'ok': True}
+2025-10-06 20:21:02,562 - INFO - Preparing data for sensor ID 5 (Request #0)
+2025-10-06 20:21:02,704 - INFO - POST successful: 201
+2025-10-06 20:21:02,705 - INFO - Response: {'ok': True}
+2025-10-06 20:29:00,009 - INFO - Preparing data for sensor ID 1 (Request #0)
+2025-10-06 20:29:00,274 - INFO - POST successful: 201
+2025-10-06 20:29:00,275 - INFO - Response: {'ok': True}
+2025-10-06 20:29:02,281 - INFO - Preparing data for sensor ID 2 (Request #0)
+2025-10-06 20:29:02,421 - INFO - POST successful: 201
+2025-10-06 20:29:02,422 - INFO - Response: {'ok': True}
+2025-10-06 20:29:04,425 - INFO - Preparing data for sensor ID 3 (Request #0)
+2025-10-06 20:29:04,573 - INFO - POST successful: 201
+2025-10-06 20:29:04,574 - INFO - Response: {'ok': True}
+2025-10-06 20:29:06,579 - INFO - Preparing data for sensor ID 4 (Request #0)
+2025-10-06 20:29:06,730 - INFO - POST successful: 201
+2025-10-06 20:29:06,731 - INFO - Response: {'ok': True}
+2025-10-06 20:29:08,732 - INFO - Preparing data for sensor ID 5 (Request #0)
+2025-10-06 20:29:08,890 - INFO - POST successful: 201
+2025-10-06 20:29:08,891 - INFO - Response: {'ok': True}
+2025-10-06 22:09:18,800 - INFO - Preparing data for sensor ID 1 (Request #0)
+2025-10-06 22:09:19,948 - INFO - POST successful: 201
+2025-10-06 22:09:19,949 - INFO - Response: {'ok': True}
+2025-10-06 22:09:21,954 - INFO - Preparing data for sensor ID 2 (Request #0)
+2025-10-06 22:09:22,150 - INFO - POST successful: 201
+2025-10-06 22:09:22,151 - INFO - Response: {'ok': True}
+2025-10-06 22:09:24,156 - INFO - Preparing data for sensor ID 3 (Request #0)
+2025-10-06 22:09:24,289 - INFO - POST successful: 201
+2025-10-06 22:09:24,289 - INFO - Response: {'ok': True}
+2025-10-06 22:09:26,292 - INFO - Preparing data for sensor ID 4 (Request #0)
+2025-10-06 22:09:26,423 - INFO - POST successful: 201
+2025-10-06 22:09:26,424 - INFO - Response: {'ok': True}
+2025-10-06 22:09:28,429 - INFO - Preparing data for sensor ID 5 (Request #0)
+2025-10-06 22:09:28,567 - INFO - POST successful: 201
+2025-10-06 22:09:28,568 - INFO - Response: {'ok': True}
+2025-10-06 22:09:30,573 - INFO - Preparing data for sensor ID 1 (Request #0)
+2025-10-06 22:09:30,706 - INFO - POST successful: 201
+2025-10-06 22:09:30,707 - INFO - Response: {'ok': True}
+2025-10-06 22:09:32,708 - INFO - Preparing data for sensor ID 2 (Request #0)
+2025-10-06 22:09:32,854 - INFO - POST successful: 201
+2025-10-06 22:09:32,854 - INFO - Response: {'ok': True}
+2025-10-06 22:09:34,860 - INFO - Preparing data for sensor ID 3 (Request #0)
+2025-10-06 22:09:34,992 - INFO - POST successful: 201
+2025-10-06 22:09:34,992 - INFO - Response: {'ok': True}
+2025-10-06 22:09:36,997 - INFO - Preparing data for sensor ID 4 (Request #0)
+2025-10-06 22:09:37,134 - INFO - POST successful: 201
+2025-10-06 22:09:37,135 - INFO - Response: {'ok': True}
+2025-10-06 22:09:39,140 - INFO - Preparing data for sensor ID 5 (Request #0)
+2025-10-06 22:09:39,303 - INFO - POST successful: 201
+2025-10-06 22:09:39,303 - INFO - Response: {'ok': True}
+2025-10-06 22:09:41,306 - INFO - Preparing data for sensor ID 1 (Request #0)
+2025-10-06 22:09:41,451 - INFO - POST successful: 201
+2025-10-06 22:09:41,452 - INFO - Response: {'ok': True}
+2025-10-06 22:09:43,452 - INFO - Preparing data for sensor ID 2 (Request #0)
+2025-10-06 22:09:43,593 - INFO - POST successful: 201
+2025-10-06 22:09:43,593 - INFO - Response: {'ok': True}
+2025-10-06 22:09:45,598 - INFO - Preparing data for sensor ID 3 (Request #0)
+2025-10-06 22:09:45,739 - INFO - POST successful: 201
+2025-10-06 22:09:45,740 - INFO - Response: {'ok': True}
+2025-10-06 22:09:47,742 - INFO - Preparing data for sensor ID 4 (Request #0)
+2025-10-06 22:09:47,946 - INFO - POST successful: 201
+2025-10-06 22:09:47,946 - INFO - Response: {'ok': True}
+2025-10-06 22:09:49,948 - INFO - Preparing data for sensor ID 5 (Request #0)
+2025-10-06 22:09:50,608 - INFO - POST successful: 201
+2025-10-06 22:09:50,608 - INFO - Response: {'ok': True}
+2025-10-06 22:09:52,614 - INFO - Preparing data for sensor ID 1 (Request #0)
+2025-10-06 22:09:52,757 - INFO - POST successful: 201
+2025-10-06 22:09:52,757 - INFO - Response: {'ok': True}
+2025-10-06 22:09:54,761 - INFO - Preparing data for sensor ID 2 (Request #0)
+2025-10-06 22:09:54,904 - INFO - POST successful: 201
+2025-10-06 22:09:54,904 - INFO - Response: {'ok': True}
+2025-10-06 22:09:56,910 - INFO - Preparing data for sensor ID 3 (Request #0)
+2025-10-06 22:09:57,065 - INFO - POST successful: 201
+2025-10-06 22:09:57,066 - INFO - Response: {'ok': True}
+2025-10-06 22:09:59,071 - INFO - Preparing data for sensor ID 4 (Request #0)
+2025-10-06 22:09:59,213 - INFO - POST successful: 201
+2025-10-06 22:09:59,214 - INFO - Response: {'ok': True}
+2025-10-06 22:10:01,218 - INFO - Preparing data for sensor ID 5 (Request #0)
+2025-10-06 22:10:01,354 - INFO - POST successful: 201
+2025-10-06 22:10:01,355 - INFO - Response: {'ok': True}
+2025-10-06 22:10:03,357 - INFO - Preparing data for sensor ID 1 (Request #0)
+2025-10-06 22:10:03,496 - INFO - POST successful: 201
+2025-10-06 22:10:03,497 - INFO - Response: {'ok': True}
+2025-10-06 22:10:05,502 - INFO - Preparing data for sensor ID 2 (Request #0)
+2025-10-06 22:10:05,643 - INFO - POST successful: 201
+2025-10-06 22:10:05,644 - INFO - Response: {'ok': True}
+2025-10-06 22:10:07,646 - INFO - Preparing data for sensor ID 3 (Request #0)
+2025-10-06 22:10:07,786 - INFO - POST successful: 201
+2025-10-06 22:10:07,786 - INFO - Response: {'ok': True}
+2025-10-06 22:10:09,792 - INFO - Preparing data for sensor ID 4 (Request #0)
+2025-10-06 22:10:09,930 - INFO - POST successful: 201
+2025-10-06 22:10:09,930 - INFO - Response: {'ok': True}
+2025-10-06 22:10:11,936 - INFO - Preparing data for sensor ID 5 (Request #0)
+2025-10-06 22:10:12,075 - INFO - POST successful: 201
+2025-10-06 22:10:12,076 - INFO - Response: {'ok': True}
+2025-10-06 22:10:14,079 - INFO - Preparing data for sensor ID 1 (Request #0)
+2025-10-06 22:10:14,217 - INFO - POST successful: 201
+2025-10-06 22:10:14,218 - INFO - Response: {'ok': True}
+2025-10-06 22:10:16,220 - INFO - Preparing data for sensor ID 2 (Request #0)
+2025-10-06 22:10:16,364 - INFO - POST successful: 201
+2025-10-06 22:10:16,365 - INFO - Response: {'ok': True}
+2025-10-06 22:10:18,370 - INFO - Preparing data for sensor ID 3 (Request #0)
+2025-10-06 22:10:19,514 - INFO - POST successful: 201
+2025-10-06 22:10:19,515 - INFO - Response: {'ok': True}
+2025-10-06 22:10:21,517 - INFO - Preparing data for sensor ID 4 (Request #0)
+2025-10-06 22:10:21,652 - INFO - POST successful: 201
+2025-10-06 22:10:21,652 - INFO - Response: {'ok': True}
+2025-10-06 22:10:23,653 - INFO - Preparing data for sensor ID 5 (Request #0)
+2025-10-06 22:10:23,788 - INFO - POST successful: 201
+2025-10-06 22:10:23,790 - INFO - Response: {'ok': True}
+2025-10-06 22:10:25,795 - INFO - Preparing data for sensor ID 1 (Request #0)
+2025-10-06 22:10:25,932 - INFO - POST successful: 201
+2025-10-06 22:10:25,933 - INFO - Response: {'ok': True}
+2025-10-06 22:10:27,938 - INFO - Preparing data for sensor ID 2 (Request #0)
+2025-10-06 22:10:28,072 - INFO - POST successful: 201
+2025-10-06 22:10:28,072 - INFO - Response: {'ok': True}
+2025-10-06 22:10:30,075 - INFO - Preparing data for sensor ID 3 (Request #0)
+2025-10-06 22:10:30,209 - INFO - POST successful: 201
+2025-10-06 22:10:30,210 - INFO - Response: {'ok': True}
+2025-10-06 22:10:32,212 - INFO - Preparing data for sensor ID 4 (Request #0)
+2025-10-06 22:10:32,345 - INFO - POST successful: 201
+2025-10-06 22:10:32,346 - INFO - Response: {'ok': True}
+2025-10-06 22:10:34,349 - INFO - Preparing data for sensor ID 5 (Request #0)
+2025-10-06 22:10:34,487 - INFO - POST successful: 201
+2025-10-06 22:10:34,487 - INFO - Response: {'ok': True}
+2025-10-06 22:10:36,493 - INFO - Preparing data for sensor ID 1 (Request #0)
+2025-10-06 22:10:36,633 - INFO - POST successful: 201
+2025-10-06 22:10:36,633 - INFO - Response: {'ok': True}
+2025-10-06 22:10:38,635 - INFO - Preparing data for sensor ID 2 (Request #0)
+2025-10-06 22:10:38,780 - INFO - POST successful: 201
+2025-10-06 22:10:38,781 - INFO - Response: {'ok': True}
+2025-10-06 22:10:40,784 - INFO - Preparing data for sensor ID 3 (Request #0)
+2025-10-06 22:10:40,943 - INFO - POST successful: 201
+2025-10-06 22:10:40,944 - INFO - Response: {'ok': True}
+2025-10-06 22:10:42,945 - INFO - Preparing data for sensor ID 4 (Request #0)
+2025-10-06 22:10:43,097 - INFO - POST successful: 201
+2025-10-06 22:10:43,098 - INFO - Response: {'ok': True}
+2025-10-06 22:10:45,103 - INFO - Preparing data for sensor ID 5 (Request #0)
+2025-10-06 22:10:45,253 - INFO - POST successful: 201
+2025-10-06 22:10:45,253 - INFO - Response: {'ok': True}
+2025-10-06 22:10:47,259 - INFO - Preparing data for sensor ID 1 (Request #0)
+2025-10-06 22:10:47,407 - INFO - POST successful: 201
+2025-10-06 22:10:47,407 - INFO - Response: {'ok': True}
+2025-10-06 22:10:49,412 - INFO - Preparing data for sensor ID 2 (Request #0)
+2025-10-06 22:10:49,560 - INFO - POST successful: 201
+2025-10-06 22:10:49,560 - INFO - Response: {'ok': True}
+2025-10-06 22:10:51,565 - INFO - Preparing data for sensor ID 3 (Request #0)
+2025-10-06 22:10:51,707 - INFO - POST successful: 201
+2025-10-06 22:10:51,708 - INFO - Response: {'ok': True}
+2025-10-06 22:10:53,713 - INFO - Preparing data for sensor ID 4 (Request #0)
+2025-10-06 22:10:53,868 - INFO - POST successful: 201
+2025-10-06 22:10:53,869 - INFO - Response: {'ok': True}
+2025-10-06 22:10:55,871 - INFO - Preparing data for sensor ID 5 (Request #0)
+2025-10-06 22:10:56,010 - INFO - POST successful: 201
+2025-10-06 22:10:56,010 - INFO - Response: {'ok': True}
+2025-10-06 22:10:58,013 - INFO - Preparing data for sensor ID 1 (Request #0)
+2025-10-06 22:10:58,145 - INFO - POST successful: 201
+2025-10-06 22:10:58,145 - INFO - Response: {'ok': True}
+2025-10-06 22:11:00,149 - INFO - Preparing data for sensor ID 2 (Request #0)
+2025-10-06 22:11:00,295 - INFO - POST successful: 201
+2025-10-06 22:11:00,296 - INFO - Response: {'ok': True}
+2025-10-06 22:11:02,297 - INFO - Preparing data for sensor ID 3 (Request #0)
+2025-10-06 22:11:02,441 - INFO - POST successful: 201
+2025-10-06 22:11:02,442 - INFO - Response: {'ok': True}
+2025-10-06 22:11:04,445 - INFO - Preparing data for sensor ID 4 (Request #0)
+2025-10-06 22:11:04,586 - INFO - POST successful: 201
+2025-10-06 22:11:04,587 - INFO - Response: {'ok': True}
+2025-10-06 22:11:06,592 - INFO - Preparing data for sensor ID 5 (Request #0)
+2025-10-06 22:11:06,741 - INFO - POST successful: 201
+2025-10-06 22:11:06,742 - INFO - Response: {'ok': True}
+2025-10-06 22:18:59,998 - INFO - Preparing data for sensor ID 1 (Request #0)
+2025-10-06 22:19:00,284 - INFO - POST successful: 201
+2025-10-06 22:19:00,285 - INFO - Response: {'ok': True}
+2025-10-06 22:19:02,287 - INFO - Preparing data for sensor ID 2 (Request #0)
+2025-10-06 22:19:02,443 - INFO - POST successful: 201
+2025-10-06 22:19:02,444 - INFO - Response: {'ok': True}
+2025-10-06 22:19:04,448 - INFO - Preparing data for sensor ID 3 (Request #0)
+2025-10-06 22:19:04,582 - INFO - POST successful: 201
+2025-10-06 22:19:04,583 - INFO - Response: {'ok': True}
+2025-10-06 22:19:06,588 - INFO - Preparing data for sensor ID 4 (Request #0)
+2025-10-06 22:19:06,724 - INFO - POST successful: 201
+2025-10-06 22:19:06,724 - INFO - Response: {'ok': True}
+2025-10-06 22:19:08,726 - INFO - Preparing data for sensor ID 5 (Request #0)
+2025-10-06 22:19:08,869 - INFO - POST successful: 201
+2025-10-06 22:19:08,870 - INFO - Response: {'ok': True}
+2025-10-06 22:29:21,825 - INFO - Preparing data for sensor ID 1 (Request #0)
+2025-10-06 22:29:22,042 - INFO - POST successful: 201
+2025-10-06 22:29:22,043 - INFO - Response: {'ok': True}
+2025-10-06 22:29:24,045 - INFO - Preparing data for sensor ID 2 (Request #0)
+2025-10-06 22:29:24,184 - INFO - POST successful: 201
+2025-10-06 22:29:24,185 - INFO - Response: {'ok': True}
+2025-10-06 22:29:26,190 - INFO - Preparing data for sensor ID 3 (Request #0)
+2025-10-06 22:29:26,334 - INFO - POST successful: 201
+2025-10-06 22:29:26,335 - INFO - Response: {'ok': True}
+2025-10-06 22:29:28,340 - INFO - Preparing data for sensor ID 4 (Request #0)
+2025-10-06 22:29:28,474 - INFO - POST successful: 201
+2025-10-06 22:29:28,474 - INFO - Response: {'ok': True}
+2025-10-06 22:29:30,476 - INFO - Preparing data for sensor ID 5 (Request #0)
+2025-10-06 22:29:30,626 - INFO - POST successful: 201
+2025-10-06 22:29:30,626 - INFO - Response: {'ok': True}
+2025-10-06 22:39:24,424 - INFO - Preparing data for sensor ID 1 (Request #0)
+2025-10-06 22:39:24,702 - INFO - POST successful: 201
+2025-10-06 22:39:24,703 - INFO - Response: {'ok': True}
+2025-10-06 22:39:26,708 - INFO - Preparing data for sensor ID 2 (Request #0)
+2025-10-06 22:39:26,851 - INFO - POST successful: 201
+2025-10-06 22:39:26,852 - INFO - Response: {'ok': True}
+2025-10-06 22:39:28,856 - INFO - Preparing data for sensor ID 3 (Request #0)
+2025-10-06 22:39:28,999 - INFO - POST successful: 201
+2025-10-06 22:39:29,000 - INFO - Response: {'ok': True}
+2025-10-06 22:39:31,002 - INFO - Preparing data for sensor ID 4 (Request #0)
+2025-10-06 22:39:31,145 - INFO - POST successful: 201
+2025-10-06 22:39:31,145 - INFO - Response: {'ok': True}
+2025-10-06 22:39:33,151 - INFO - Preparing data for sensor ID 5 (Request #0)
+2025-10-06 22:39:33,292 - INFO - POST successful: 201
+2025-10-06 22:39:33,293 - INFO - Response: {'ok': True}
+2025-10-06 23:02:57,698 - INFO - Preparing data for sensor ID 1 (Request #0)
+2025-10-06 23:02:57,897 - INFO - POST successful: 201
+2025-10-06 23:02:57,897 - INFO - Response: {'ok': True}
+2025-10-06 23:02:59,901 - INFO - Preparing data for sensor ID 2 (Request #0)
+2025-10-06 23:03:00,045 - INFO - POST successful: 201
+2025-10-06 23:03:00,046 - INFO - Response: {'ok': True}
+2025-10-06 23:03:02,051 - INFO - Preparing data for sensor ID 3 (Request #0)
+2025-10-06 23:03:02,198 - INFO - POST successful: 201
+2025-10-06 23:03:02,198 - INFO - Response: {'ok': True}
+2025-10-06 23:03:04,200 - INFO - Preparing data for sensor ID 4 (Request #0)
+2025-10-06 23:03:04,344 - INFO - POST successful: 201
+2025-10-06 23:03:04,345 - INFO - Response: {'ok': True}
+2025-10-06 23:03:06,350 - INFO - Preparing data for sensor ID 5 (Request #0)
+2025-10-06 23:03:06,496 - INFO - POST successful: 201
+2025-10-06 23:03:06,496 - INFO - Response: {'ok': True}
+2025-10-06 23:03:08,502 - INFO - Preparing data for sensor ID 1 (Request #0)
+2025-10-06 23:03:08,649 - INFO - POST successful: 201
+2025-10-06 23:03:08,650 - INFO - Response: {'ok': True}
+2025-10-06 23:03:10,652 - INFO - Preparing data for sensor ID 2 (Request #0)
+2025-10-06 23:03:10,794 - INFO - POST successful: 201
+2025-10-06 23:03:10,795 - INFO - Response: {'ok': True}
+2025-10-06 23:03:12,795 - INFO - Preparing data for sensor ID 3 (Request #0)
+2025-10-06 23:03:12,946 - INFO - POST successful: 201
+2025-10-06 23:03:12,946 - INFO - Response: {'ok': True}
+2025-10-06 23:03:14,947 - INFO - Preparing data for sensor ID 4 (Request #0)
+2025-10-06 23:03:15,089 - INFO - POST successful: 201
+2025-10-06 23:03:15,090 - INFO - Response: {'ok': True}
+2025-10-06 23:03:17,095 - INFO - Preparing data for sensor ID 5 (Request #0)
+2025-10-06 23:03:17,235 - INFO - POST successful: 201
+2025-10-06 23:03:17,236 - INFO - Response: {'ok': True}
+2025-10-06 23:09:23,694 - INFO - Preparing data for sensor ID 1 (Request #0)
+2025-10-06 23:09:24,067 - INFO - POST successful: 201
+2025-10-06 23:09:24,068 - INFO - Response: {'ok': True}
+2025-10-06 23:09:26,069 - INFO - Preparing data for sensor ID 2 (Request #0)
+2025-10-06 23:09:26,208 - INFO - POST successful: 201
+2025-10-06 23:09:26,209 - INFO - Response: {'ok': True}
+2025-10-06 23:09:28,212 - INFO - Preparing data for sensor ID 3 (Request #0)
+2025-10-06 23:09:28,362 - INFO - POST successful: 201
+2025-10-06 23:09:28,363 - INFO - Response: {'ok': True}
+2025-10-06 23:09:30,367 - INFO - Preparing data for sensor ID 4 (Request #0)
+2025-10-06 23:09:30,533 - INFO - POST successful: 201
+2025-10-06 23:09:30,534 - INFO - Response: {'ok': True}
+2025-10-06 23:09:32,537 - INFO - Preparing data for sensor ID 5 (Request #0)
+2025-10-06 23:09:32,673 - INFO - POST successful: 201
+2025-10-06 23:09:32,674 - INFO - Response: {'ok': True}
+2025-10-07 01:07:59,809 - INFO - Preparing data for sensor ID 1 (Request #0)
+2025-10-07 01:08:00,081 - INFO - POST successful: 201
+2025-10-07 01:08:00,081 - INFO - Response: {'ok': True}
+2025-10-07 01:16:56,630 - INFO - Preparing data for sensor ID 2 (Request #0)
+2025-10-07 01:16:57,791 - INFO - POST successful: 201
+2025-10-07 01:16:57,791 - INFO - Response: {'ok': True}
+2025-10-07 01:16:59,797 - INFO - Preparing data for sensor ID 3 (Request #0)
+2025-10-07 01:16:59,925 - INFO - POST successful: 201
+2025-10-07 01:16:59,925 - INFO - Response: {'ok': True}
+2025-10-07 01:17:01,928 - INFO - Preparing data for sensor ID 4 (Request #0)
+2025-10-07 01:17:02,057 - INFO - POST successful: 201
+2025-10-07 01:17:02,058 - INFO - Response: {'ok': True}
+2025-10-07 01:22:30,572 - INFO - Preparing data for sensor ID 5 (Request #0)
+2025-10-07 01:58:46,469 - ERROR - Unexpected error: HTTPConnectionPool(host='mysql-server-tailscale.tailb51a53.ts.net', port=5000): Max retries exceeded with url: /v/m/current/5 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x105e0d040>, 'Connection to mysql-server-tailscale.tailb51a53.ts.net timed out. (connect timeout=None)'))
+2025-10-07 01:58:46,469 - INFO - Total requests made: 0

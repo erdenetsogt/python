@@ -44,13 +44,10 @@ def setValue(min,max,val1):
   return val
   
 def getValue(id):
-
   url = "http://mysql-server-tailscale.tailb51a53.ts.net:5000/v/m/current/"+str(id)
-
-
   headers = {
     'Content-Type': 'application/json',
-    
+   
   }
   response = requests.request("GET", url, headers=headers)
   json_data = json.loads(response.text)
@@ -67,7 +64,7 @@ def getValue(id):
 
 count=[1,2,3,4,5]
 
-for i in count:
-  getValue(i)
+#for i in count:
+  #getValue(i)
 
 
