@@ -4,7 +4,7 @@ import json
 import time
 import logging
 import random
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 
 # Configure logging
 logging.basicConfig(
@@ -77,7 +77,7 @@ def setValue(min,max,val1):
   
  
 
-def generate_sample_data(id):
+def generate_sample_data(id,date): 
   url = "http://mysql-server-tailscale.tailb51a53.ts.net:5000/v/m/current/"+str(id)
 
 
@@ -97,6 +97,7 @@ def generate_sample_data(id):
       #print(item.get("id"), item.get("sensorObjectValue").get("value"))
   data2={}
   data2['sensorObjects'] = data1
+  data2['date'] = date
   print(json.dumps(data2))
   return json.dumps(data2)
 count=[1,2,3,4,5]
@@ -136,10 +137,10 @@ def main():
             next_slot = current_slot + 1
             
             # Calculate the next run time
-            next_run_minute = int(next_slot * interval_minutes-1)
+            next_run_minute = int(next_slot * interval_minutes)
             
             # If next run would be in the next hour, adjust
-            if next_run_minute >= 59:
+            if next_run_minute >= 60:
                 next_run_time = schedule_start + timedelta(hours=1)
                 schedule_start = next_run_time  # Start schedule from next hour
             else:
@@ -171,43 +172,43 @@ def main():
             run_count = 0
             
             # Run the function at scheduled intervals
-            while True:
-                current_time = datetime.now()
-                
-                # Check if we've passed the end time
-                #if current_time >= end_time:
-                    #break
-                
-                for i in count:             
-              
-                  logging.info(f"Preparing data for sensor ID {i} (Request #{request_count})")
-                  # Generate sample data
-                  data = generate_sample_data(i)
-                
-                  # Post data to API
-                  result = client.post_data(ENDPOINT, data)
-                
-                  if result:
-                    logging.info(f"Response: {result}")           
-                  time.sleep(2)
-                run_count += 1
-                
-                # Calculate next scheduled run
-                next_run_time += timedelta(minutes=interval_minutes)
-                
-                # Check if next run would be past end time
-                #if next_run_time >= end_time:
-                    #break
-                
-                # Wait until next scheduled time
-                sleep_seconds = (next_run_time - datetime.now()).total_seconds()
-                if sleep_seconds > 0:
-                    time.sleep(sleep_seconds)
+            
+            current_time = datetime.now(timezone.utc).isoformat()
+            
+            # Check if we've passed the end time
+            #if current_time >= end_time:
+                #break
+            
+            for i in count:             
+          
+              logging.info(f"Preparing data for sensor ID {i} (Request #{request_count})")
+              # Generate sample data
+              data = generate_sample_data(i,current_time)
+            
+              # Post data to API
+              result = client.post_data(ENDPOINT, data)
+            
+              if result:
+                logging.info(f"Response: {result}")           
+              time.sleep(1)
+            run_count += 1
+            
+            # Calculate next scheduled run
+            next_run_time += timedelta(minutes=interval_minutes)
+            
+            # Check if next run would be past end time
+            #if next_run_time >= end_time:
+                #break
+            
+            # Wait until next scheduled time
+            sleep_seconds = (next_run_time - datetime.now()).total_seconds()
+            if sleep_seconds > 0:
+                time.sleep(sleep_seconds)
             
             
             
             # Wait before next request
-            logging.info(f"Waiting {LOOP_INTERVAL} seconds before next request...")
+            #logging.info(f"Waiting {LOOP_INTERVAL} seconds before next request...")
             #time.sleep(LOOP_INTERVAL)
             
             
