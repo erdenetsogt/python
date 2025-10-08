@@ -116,10 +116,8 @@ def main():
     }
     runs_per_hour = 6  # Number of runs per hour
     # Initialize API client
-    client = APIClient(API_BASE_URL, headers)
-    
-    request_count = 0
-    logging.info("Starting API POST loop...")
+    client = APIClient(API_BASE_URL, headers)  
+   
     
     try:
         while True:
@@ -134,7 +132,7 @@ def main():
             # Find the next scheduled run slot
             # This finds which slot we're currently in or past
             current_slot = int(minutes_in_hour / interval_minutes)
-            next_slot = current_slot + 1
+            next_slot = current_slot+1
             
             # Calculate the next run time
             next_run_minute = int(next_slot * interval_minutes)
@@ -146,29 +144,10 @@ def main():
             else:
                 next_run_time = schedule_start.replace(minute=next_run_minute, second=0, microsecond=0)
             
-            # Calculate end time (1 hour from when schedule starts)
-            #end_time = schedule_start + timedelta(hours=1)
-            
-            # Calculate how many runs were missed
-            #missed_runs = current_slot
-            
-            print(f"Current time: {now.strftime('%H:%M:%S')}")
-            print(f"Schedule: Every {interval_minutes:.0f} minutes (runs per hour: {runs_per_hour})")
-            #print(f"Schedule runs from: {schedule_start.strftime('%H:%M')} to {end_time.strftime('%H:%M')}")
-            
-            
-            
-            print(f"Next scheduled run: {next_run_time.strftime('%H:%M:%S')}")
-            
-            # Wait until next scheduled time
-            
-            if next_run_time > now:
-              wait_seconds = (next_run_time - now).total_seconds()
-              print(f"Waiting {wait_seconds:.1f} seconds...\n")
-              time.sleep(wait_seconds)
-            
-            
-            
+            if next_run_time > datetime.now():
+                sleep_seconds = (next_run_time - datetime.now()).total_seconds()
+                print(f"Waiting {sleep_seconds:.1f} seconds until next run at {next_run_time}...\n")
+                time.sleep(sleep_seconds)
             
             
             # Run the function at scheduled intervals
@@ -181,7 +160,7 @@ def main():
             
             for i in count:             
           
-              logging.info(f"Preparing data for sensor ID {i} (Request #{request_count})")
+              logging.info(f"Preparing data for sensor ID {i} ")
               # Generate sample data
               data = generate_sample_data(i,current_time)
             
@@ -191,19 +170,19 @@ def main():
               if result:
                 logging.info(f"Response: {result}")           
               time.sleep(1)
-            run_count += 1
+            
             
             # Calculate next scheduled run
-            next_run_time += timedelta(minutes=interval_minutes)
+            #next_run_time += timedelta(minutes=interval_minutes)
+            
             
             # Check if next run would be past end time
             #if next_run_time >= end_time:
                 #break
             
             # Wait until next scheduled time
-            sleep_seconds = (next_run_time - datetime.now()).total_seconds()
-            if sleep_seconds > 0:
-                time.sleep(sleep_seconds)
+            
+            
             
             
             
@@ -217,7 +196,7 @@ def main():
     except Exception as e:
         logging.error(f"Unexpected error: {e}")
     finally:
-        logging.info(f"Total requests made: {request_count}")
+        logging.info(f"Total requests made: ")
 
 if __name__ == "__main__":
     main()
